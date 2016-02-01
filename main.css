@@ -1,0 +1,126 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+@font-face {
+    font-family: 'didot_htf_96bold';
+    src: url('didothtf-96bold.eot');
+    src: url('didothtf-96bold.eot?#iefix') format('embedded-opentype'),
+         url('didothtf-96bold.woff2') format('woff2'),
+         url('didothtf-96bold.woff') format('woff'),
+         url('didothtf-96bold.ttf') format('truetype'),
+         url('didothtf-96bold.svg#didot_htf_96bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#centerID{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.centerID{
+	text-align:center;
+}
+
+.clock{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+h1{
+    font-family: 'didot_htf_96bold';
+    font-size: 200px;
+    text-align: center;
+}
+
+h3{
+    font-family:Montserrat;
+    font-size:20px;
+    text-transform:uppercase;
+    letter-spacing: 10px;
+    padding-bottom: 50px;
+}
+
+body{
+	background: url("images/wall-texture.jpg") fixed;
+	background-size: cover;
+	color:white;
+    text-align: center;
+    font-family:Montserrat;
+	}
+
+.tip {
+  position: absolute;
+  width: 100px;
+  height: 60px;
+  background-image: url("images/speech-bubble.png");
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+div p {
+  color: gray;
+  padding-top:7px;
+  padding-right:28px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  overflow:hidden;
+}
+
+.button {
+   background: transparent;
+   padding: 13.5px 27px;
+   margin-left:30px;
+   border-radius: 40px;
+   font-size: 12px;
+   font-family:Montserrat;
+   letter-spacing: 5px;
+   text-transform: uppercase;
+   color:white;
+   text-decoration: none;
+   }
+
+.button:hover {
+   opacity: 0.5;
+   }
+
+.button:active {
+   background: lightgray;
+   }
+
+section.overlay{
+     font-size: 11px;
+     color: white;
+     text-align: left;
+     position: relative;
+     top: 50px;
+     left: 100px;
+     width: 100%;
+     height: 100%;
+     visibility:visible;
+}
+
+section.overlay ul{
+    float:left;
+    margin-left:20px;
+    list-style-type: none;
+    padding-bottom: 50px;
+}
+
+section.overlay nav{
+     position: absolute;
+    right:50px;
+     width:50px;
+     height:50px;
+     border: 1px white solid;
+     text-align:center;
+}
+
+section.overlay nav:hover {
+     background-color:transparent;
+}
+
